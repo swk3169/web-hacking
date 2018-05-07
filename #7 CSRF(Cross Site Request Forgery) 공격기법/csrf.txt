@@ -1,0 +1,1 @@
+dowellcomputer.com/talk/talkWriteAction.jsp?talkType=JAVA&talkTitle=abc&talkContent=abc&talkSourceCode=abc
